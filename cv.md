@@ -4,10 +4,10 @@
 
 ## My contacts
 
-- **E-mail:** myilmaz@bk.ru
+- **E-mail:** mehmettatarstan@gmailcom
 - **Telegram:** myilmaz9
 - **Discord:** mehmyilmaz
-- **linkedin:** <https://www.linkedin.com/in/mehmet-yilmaz-0b29451b8/>
+- **linkedin:** <https://www.linkedin.com/in/mehyilmaz/>
 
 ## About me
 
@@ -32,7 +32,7 @@ _Here are the skills that already exist and are still learning. And which I also
 
 ### English Level
 
-English level B1 At the moment my level is A1, but I'm constantly learning and I'm not going to stop until I can speak fluently.
+English level B2 At the moment my level is B1, but I'm constantly learning and I'm not going to stop until I can speak fluently.
 
 ## Code example
 
