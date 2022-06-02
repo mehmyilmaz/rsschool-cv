@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mehmet YILMAZ-Junior Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/icon/fav-icon.ico">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comforter&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="brand-title">Home</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#contact">CONTACTS</a></li>
+          <li><a href="#skills"> SKILLS</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#about">SUMMARY</a></li>
+          <li><a href="#code">CODE</a></li>
+          <li> <a href="#english">ENGLISH</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <aside class="aside_header">
+        <figure class="foto_figure">
+          <img src="assets/img/portret.jpg" alt="mehmet" />
+        </figure>
+      </aside>
+      <div class="main_header">
+        <h1>YILMAZ <span class="h1_span">Mehmet</span></h1>
+        <h3>Junior Front-end Developer</h3>
+        <div class="underlined-grey"></div>
+      </div>
+    </header>
+    <main class="main_container">
+      <aside class="aside_container">
+        <div class="contact" id="contact">
+          <h4 class="contact-header">
+            <i class="fas fa-address-book"></i> <span>Contact</span>
+          </h4>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <i class="fas fa-mobile-alt"></i><span>+79539995391</span>
+            </li>
+            <li class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>mehmettatarstan@gmail.com</span>
+            </li>
+            <li class="contact-item">
+              <i class="fab fa-telegram"></i><span>myilmaz9</span>
+            </li>
+            <li class="contact-item">
+              <i class="fab fa-linkedin-in"></i
+              ><a href="https://www.linkedin.com/in/mehmet-yilmaz-0b29451b8/"
+                >linkedin</a
+              >
+            </li>
+            <li class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Adres: USA / New York</span>
+            </li>
+          </ul>
+        </div>
+        <div class="skills" id="skills">
+          <h4 class="skill-header">My Skills</h4>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <i class="fab fa-html5"></i><span>HTML5/CSS3</span>
+            </li>
+            <li class="skill-item">
+              <i class="fab fa-node-js"></i><span>JAVASCRIPT</span>
+            </li>
+            <li class="skill-item">
+              <i class="fab fa-bimobject"></i><span>BootStrap5</span>
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-th-large"></i><span>Flex/Grid</span>
+            </li>
+            <li class="skill-item">
+              <i class="fab fa-css3-alt"></i><span>SCSS</span>
+            </li>
+            <li class="skill-item">
+              <i class="fas fa-code-branch"></i><span>Git/GitHub</span>
+            </li>
+          </ul>
+        </div>
+        <div class="education" id="education">
+          <h4>Education</h4>
+          <ul class="education-list">
+            <li class="education-item">
+              <i class="far fa-life-ring"></i>
+              <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+            </li>
+            <li class="education-item">
+              <i class="far fa-life-ring"></i>
+              <a href="https://www.w3schools.com/" target="_blank">W3school</a>
+            </li>
+            <li class="education-item">
+              <i class="far fa-life-ring"></i>
+              <a href="https://rollingscopes.com/" target="_blank"
+                >RSSchool (JavaScript/Front-end course)</a
+              >
+            </li>
+            <li class="education-item">
+              <i class="far fa-life-ring"></i>
+              <a href="https://www.codecademy.com/" target="_blank"
+                >Codecademy(html/css course)</a
+              >
+            </li>
+            <li class="education-item">
+              <i class="far fa-life-ring"></i>
+              <a
+                href="https://www.youtube.com/c/FreelancerLifeStyle"
+                target="_blank"
+                >Фрилансер по жизни - IT и фриланс (js course)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="section_container">
+        <div class="about" id="about">
+          <h5>About me</h5>
+          <p class="about-p">
+            Brief personal information: 29 years old, higher education. My aim
+            is to do what I love and become a professional at it. My strengths:
+            Fast learning Dislike for low-quality work Hard work Curiosity
+            Honesty
+          </p>
+        </div>
+        <div class="code" id="code">
+          <h5>Code example:</h5>
+          <div class="codeDiv">
+            <code class="codeExample">
+              function getDayOfTheWeek(date) {<br />
+              <span>if(/:/.test(date)) return date</span><br /><span>
+                let day=date.split('/')[1]*1</span
+              ><br /><span> let month=date.split('/')[0]*1</span><br /><span>
+                let year=date.split('/')[2]*1</span
+              ><br /><span>
+                let date1 = new Date(Date.UTC(year,month-1,day));</span
+              ><br /><span>
+                return new Intl.DateTimeFormat('en-US', {weekday: 'long'}).
+                format(date1)</span
+              ><br />
+              }
+            </code>
+          </div>
+        </div>
+        <div class="myEnglish" id="english">
+          <h5>English Level</h5>
+          <p>
+            English level B2 At the moment my level is B1, but I'm constantly
+            learning and I'm not going to stop until I can speak fluently.
+          </p>
+        </div>
+        <div class="myHobies">
+          <h5>My Hobbies</h5>
+          <ul>
+            <li><i class="fas fa-film"></i>Movies</li>
+            <li><i class="fas fa-dumbbell"></i>Sport</li>
+            <li><i class="fas fa-user-graduate"></i>Studying</li>
+            <li><i class="fas fa-tree"></i>walk in the woods</li>
+          </ul>
+        </div>
+        <div class="my-projects">
+          <h5 class="header-project">My Projects</h5>
+          <div class="projectContainer">
+            <div class="portfolio"><a href="https://rolling-scopes-school.github.io/mehmyilmaz-JSFEPRESCHOOL/portfolio/" target="_blank">PORTFOLIO</a></div>
+            <div class="audio"><a href="https://rolling-scopes-school.github.io/mehmyilmaz-JSFEPRESCHOOL/audio-player/" target="_blank">AUDIO PLAYER</a></div>
+            <div class="eco"><a href="https://rolling-scopes-school.github.io/mehmyilmaz-JSFEPRESCHOOL/eco-sound/" target="_blank">ECO SOUNDS</a></div>
+            <div class="galery"><a href="https://rolling-scopes-school.github.io/mehmyilmaz-JSFEPRESCHOOL/image-galery/" target="_blank">IMAGE GALERY</a></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer_container">
+      <div>
+        <a
+          href="https://github.com/mehmyilmaz"
+          class="footer_github"
+          target="_blank"
+        >
+          <img src="assets/icon/GitHub-Mark-64px.png" alt="github" />
+        </a>
+        <p class="year">2022</p>
+        <a href="https://rs.school/js-stage0/" class="rsschool" target="_blank">
+          <img src="assets/img/rs_school_js.svg" alt="rsschool" />
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("navbar-links")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
